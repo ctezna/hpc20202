@@ -28,20 +28,6 @@ SI le pide password alguno de los slaves anteriores, por favor realice el paso d
         $
         $ cd .ssh
         $ cp id_rsa.pub authorized_keys
-        $ scp ~/.ssh/id_rsa user-vpn@192.168.10.41:
-        Password: pass-vpn
-        $ scp ~/.ssh/id_rsa.pub user-vpn@192.168.10.41:
-        Password: pass-vpn
-
-// conectar a slave1:
-
-        $ ssh user-vpn@192.168.10.41
-        Password: pass-vpn        
-        $ mkdir ~/.ssh
-        $ cp ~/id_rsa* ~/.ssh
-        $ cd ~/.ssh
-        $ cp id_rsa.pub authorized_keys
-        $ exit
 
 // compilar en OpenMP
 
